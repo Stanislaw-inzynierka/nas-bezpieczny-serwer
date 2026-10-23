@@ -1,0 +1,6 @@
+# Przykładowe utwardzenie SSH (/etc/ssh/sshd_config.d/99-hardening.conf)
+# Generowane automatycznie przez scripts/10_harden_ssh.sh
+PasswordAuthentication no
+PermitRootLogin no
+KbdInteractiveAuthentication no
+PubkeyAuthentication yes

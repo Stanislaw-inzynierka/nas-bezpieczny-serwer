@@ -1,0 +1,5 @@
+# Przykładowe przekazywanie pakietów (/etc/sysctl.d/99-nas-forwarding.conf)
+# Generowane automatycznie przez scripts/40_headless.sh
+# Wymagane przez router podsieci Tailscale.
+net.ipv4.ip_forward = 1
+net.ipv6.conf.all.forwarding = 1

@@ -1,0 +1,8 @@
+# Przykładowa konfiguracja fail2ban dla SSH (/etc/fail2ban/jail.local)
+# Generowana automatycznie przez scripts/30_fail2ban.sh
+[sshd]
+enabled  = true
+backend  = systemd
+maxretry = 4
+findtime = 600
+bantime  = 3600
