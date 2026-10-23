@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Wygenerowane wykresy (tworzone przez gen_tco.py)
+figures/*.png
+
+# Kopie zapasowe tworzone przez skrypty konfiguracyjne
+*.bak
+*.bak.*
+
+# Systemowe
+.DS_Store
